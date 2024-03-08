@@ -1,0 +1,1685 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Aaryan Sinha Portfolio</title>
+
+  <!--
+    - favicon
+  -->
+
+  <link rel="shortcut icon" href="./images_resources/slogo.png" type="image/x-icon">
+
+  <!--
+    - custom css link
+  -->
+  <link rel="stylesheet" href="style.css">
+  <!-- <link rel="stylesheet" href="D:\\KIIT ALL DOCUMENTS\Portfolio\resources\css_resources\style.css"> -->
+
+
+  
+  <!-- 
+    - google font link 
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  
+  <!-- 
+    Ref for particles:- https://vincentgarreau.com/particles.js/
+  -->
+
+  <div id="particles-js"></div>
+    <!-- count particles -->
+  <div class="count-particles">
+  <!--
+    - #MAIN
+  -->
+
+    <main>
+
+      <!--
+        - #SIDEBAR
+      -->
+      <aside class="sidebar" data-sidebar>
+
+        <div class="sidebar-info">
+            <!-- D:\KIIT ALL DOCUMENTS\Portfolio\resources\images_resources\PORTRAIT PHOTO.jpg -->
+
+          <figure class="avatar-box">
+            <img src="PORTRAITPHOTO.jpg" alt="Aaryan Sinha" width="80">
+          </figure>
+
+          <div class="info-content">
+            <h1 class="name" title="Aaryan Sinha">Aaryan Sinha</h1>
+
+            <p class="title"></p>
+            <p class="gap"></p>
+            <p class="title">Aspiring Data Scientist</p>
+          </div>
+
+          <button class="info_more-btn" data-sidebar-btn>
+            <span>Show Contacts</span>
+
+            <ion-icon name="chevron-down"></ion-icon>
+          </button>
+
+        </div>
+
+        <div class="sidebar-info_more">
+
+          <div class="separator"></div>
+
+          <ul class="contacts-list">
+
+            <li class="contact-item">
+
+              <div class="icon-box">
+                <ion-icon name="mail-outline"></ion-icon>
+              </div>
+
+              <div class="contact-info">
+                <p class="contact-title">Email</p>
+
+                <a href="mailto:aaryansinha15@gmail.com" class="contact-link">aaryansinha15@gmail.com</a>
+              </div>
+
+            </li>
+
+            <li class="contact-item">
+
+              <div class="icon-box">
+                <ion-icon name="phone-portrait-outline"></ion-icon>
+              </div>
+
+              <div class="contact-info">
+                <p class="contact-title">Phone</p>
+
+                <a href="tel:+91 9868637815" class="contact-link">+91 9868637815</a>
+              </div>
+
+            </li>
+
+            <li class="contact-item">
+
+              <div class="icon-box">
+                <ion-icon name="calendar-outline"></ion-icon>
+              </div>
+
+              <div class="contact-info">
+                <p class="contact-title">Birthday</p>
+
+                <time datetime="2002-06-15">June 15, 2002</time>
+              </div>
+
+            </li>
+
+            <li class="contact-item">
+
+              <div class="icon-box">
+                <ion-icon name="location-outline"></ion-icon>
+              </div>
+
+              <div class="contact-info">
+                <p class="contact-title">Location</p>
+
+                <address>Bhubaneshwar, Odisha, India</address>
+              </div>
+
+            </li>
+
+          </ul>
+
+          <div class="separator"></div>
+
+          <ul class="social-list">
+
+            <li class="social-item">
+              <a href="https://www.linkedin.com/in/aaryan-sinha-11346a205/" class="social-link" target="_blank">
+                <ion-icon name="logo-linkedin"></ion-icon>
+              </a>
+            </li>
+
+            <li class="social-item">
+              <a href="https://github.com/aaryansinha15" class="social-link" target="_blank">
+                <ion-icon name="logo-github"></ion-icon>
+              </a>
+            </li>
+
+            <!-- <li class="social-item">
+              <a href="https://scholar.google.com/citations?user=2OImZegAAAAJ&hl=en" class="social-link" target="_blank">
+                <ion-icon name="school-outline"></ion-icon>
+              </a>
+            </li> -->
+
+            <li class="social-item">
+              <a href="https://www.instagram.com/iamaaryansinha/" class="social-link" target="_blank">
+                <ion-icon name="logo-instagram"></ion-icon>
+              </a>
+            </li>
+
+          </ul>
+
+        </div>
+
+      </aside>
+
+
+      <!--
+        - #main-content
+      -->
+
+      <div class="main-content">
+
+        <!--
+          - #NAVBAR
+        -->
+
+        <nav class="navbar">
+
+          <ul class="navbar-list">
+
+            <li class="navbar-item">
+              <button class="navbar-link  active" data-nav-link>About</button>
+            </li>
+
+            <li class="navbar-item">
+              <button class="navbar-link" data-nav-link>Resume</button>
+            </li>
+
+            <li class="navbar-item">
+              <button class="navbar-link" data-nav-link>Projects</button>
+            </li>
+
+            <li class="navbar-item">
+              <button class="navbar-link" data-nav-link>Research</button>
+            </li>
+
+            <li class="navbar-item">
+              <button class="navbar-link" data-nav-link>Contact</button>
+            </li>
+
+          </ul>
+
+        </nav>
+
+
+        <!--
+          - #ABOUT
+        -->
+
+        <article class="about  active" data-page="about">
+
+          <header>
+            <h2 class="h2 article-title">About me</h2>
+          </header>
+
+          <section class="about-text">
+            <p>
+              Hello, I'm Aaryan Sinha, and I'm currently looking for full time positions in 
+              <a class="about-p-highlight">Software Developer</a> 
+              ,
+              <a class="about-p-highlight">Data Scientist</a>
+              or
+              <a class = "about-p-highlight">SQL Developer</a>.  
+              I am currently pursuing Computer Science and Engineering 
+              <!-- <a class="about-p-highlight" href="https://drive.google.com/file/d/1ALFIlzhfCqOuS1c_IW371aE5Q6GHolic/view8" target="_blank">[degree]</a> -->
+              at 
+              <a class="about-p-highlight" href="https://kiit.ac.in/" target="_blank">Kalinga Institute of Industrial Technology</a>. 
+              I'm extremely passionate about leveraging cutting-edge technologies to solve complex problems through software development.
+            </p>
+            <p>
+             My journey in the college has been exposed to both technicaal field and non technical field. Speaking about technical field I have publised
+             a research paper in <a class = "about-p-highlight">International Conference of Machine Learning and Data Engineering ICMLDE 2023</a>
+             under the
+             <a class = "about-p-highlight">Procedia Journal.</a>
+             And from the non-technical field aspect so I have been part of Highradius as an ABM Intern where the main role was to
+             generate leads based on the research done of different companies and understand what problems they are facing 
+             , and pitching the solution whcih can help them solving the problems related to the financial process. 
+              <!-- <a class="about-p-highlight">Amazon</a>, where I proposed novel design, and implemented systems using AWS services and CDK  -->
+              <!-- (Cloud Development Kit). This experience allowed me to dive deep into cloud computing and build scalable solutions -->
+              <!-- that can handle real-world challenges. -->
+            </p>
+            <!-- <p>
+              My fascination with technology doesn't end with software development; I'm equally enthusiastic about machine learning 
+              and research, particularly in the field of Natural Language Processing (NLP). As a Research Assistant under 
+              <a class="about-p-highlight" href="https://www.public.asu.edu/~cbaral/" target="_blank">Dr. Chitta Baral</a> 
+              at ASU, I worked on various aspects of NLP, including prompting engineering, synthetic data generation, 
+              instruction learning, and numerical commonsense reasoning. This research has broadened my understanding of LLM and 
+              its potential to reshape the future.     
+            </p> -->
+            <!-- <p>
+              
+            </p> -->
+            <p>
+              My academic journey started at KIIT University, where I earned a B.Tech in Computer Science. Where I developed 
+              a strong foundation in computer science, coded projects and applications. I also got an opportunity to publish a 
+              Research Paper published in the Procedia Journal of the International Conference of Machine Learning and Data 
+              Engineering.
+
+              Beyond my technical prowess, I have a wide range of interests. I have one a Gold Medal in Inter District Karate Championship
+              which was held for South Delhi Region. I played on my school's football squad and won several interschool football championships.
+            </p>
+          </section>
+
+
+          <!--
+            - service
+          -->
+
+          <section class="service">
+
+            <h3 class="h3 service-title">What i'm doing</h3>
+
+            <ul class="service-list">
+<!-- 
+              <li class="service-item">
+
+                <div class="service-icon-box">
+                  <img src="./resources/images_resources//data_analysis.png" alt="Data Analysis icon" width="40">
+                </div>
+
+                <div class="service-content-box">
+                  <h4 class="h4 service-item-title">Data Analysis</h4>
+
+                  <p class="service-item-text">
+                   
+                  </p>
+                </div>
+
+              </li> -->
+
+              <li class="service-item">
+
+                <div class="service-icon-box">
+                  <img src="icon-design.svg" alt="design icon" width="40">
+                </div>
+
+                <div class="service-content-box">
+                  <h4 class="h4 service-item-title">Data Science</h4>
+
+                  <p class="service-item-text">
+                    I am into analysis and I love analysing things which can play a crucial role. I am very fond of data and how 
+                    they can be used to understand single entities.
+                  </p>
+                </div>
+
+              </li>
+
+              <li class="service-item">
+
+                <div class="service-icon-box">
+                  <img src="analytics_col.png" alt="Research icon" width="40">
+                </div>
+
+                <div class="service-content-box">
+                  <h4 class="h4 service-item-title">Research</h4>
+
+                  <p class="service-item-text">
+                    I have driven NLP research, using cutting-edge methods to advance 
+                    language to understand what text can be processed and model to.
+                  </p>
+                </div>
+
+              </li>
+
+              <li class="service-item">
+
+                <div class="service-icon-box">
+                  <img src="icon-photo.svg" alt="camera icon" width="40">
+                </div>
+
+                <div class="service-content-box">
+                  <h4 class="h4 service-item-title">Photography</h4>
+
+                  <p class="service-item-text">
+                    I embrace simplicity and take pictures from unusual angles. 
+                    I also dabble in graphic illustration and short filmmaking.
+                  </p>
+                </div>
+
+              </li>
+
+            </ul>
+
+          </section>
+
+        </article>
+
+
+        <!--
+          - #RESUME
+        -->
+
+        <article class="resume" data-page="resume">
+
+          <header>
+            <h2 class="h2 article-title">Resume</h2>
+          </header>
+
+          <section class="timeline">
+
+            <div class="title-wrapper">
+              <div class="icon-box">
+                <ion-icon name="book-outline"></ion-icon>
+              </div>
+
+              <h3 class="h3">Education</h3>
+            </div>
+
+            <ol class="timeline-list">
+
+              <!-- <li class="timeline-item">
+
+                <h4 class="h4 timeline-item-title">Kalinga Institute of Industrial Technology
+                  <span class="right-align">BBSR, OD, IND</span>
+                </h4>
+                
+                <span class="program">Bachelor of Computer Science in Computer Science;  CGPA: 8.58/10.00
+                  <span class="right-align-gold">Oct, 2020 - Jun, 2024</span>
+                </span>
+
+                <p class="timeline-text">
+                  Foundations of Algorithm, Data Processing, 
+                  Computer Fundamentals, Machine Learning, 
+                  IOT, Artificial Intelligence
+                </p>
+
+              </li> -->
+
+              <li class="timeline-item">
+
+                <h4 class="h4 timeline-item-title">Kalinga Institute of Industrial Technology
+                  <span class="right-align">Bhubaneshwar, Odisha, India</span>
+                </h4>
+
+                <span class="program">B.Tech in Computer Science and Engineering;  CGPA: 8.58/10.0
+                  <span class="right-align-gold">Oct, 2020 - Jun, 2024</span>
+                </span>
+
+                <p class="timeline-text">
+                  Data Structures and Algorithms, Object-Oriented Programming, Database and 
+                  Management Systems, Large Scale Data Systems, Machine Learning, Natural Language 
+                  Processing, Operating Systems
+                </p>
+
+              </li>
+
+            </ol>
+
+          </section>
+
+          <section class="timeline">
+
+            <div class="title-wrapper"zhoubeiqi-timeline-title>
+              <div class="icon-box">
+                <ion-icon name="book-outline"></ion-icon>
+              </div>
+
+              <h3 class="h3">Experience</h3>
+            </div>
+
+            <ol class="timeline-list">
+
+              <li class="timeline-item">
+
+                <h4 class="h4 timeline-item-title">Highradius ABM Intern
+                  <span class="right-align">Bhubaneshwar, Odisha, India</span>
+                </h4>
+
+                <span class="program"> Account Based Marketing
+                  <span class="right-align-gold">Oct, 2023 - Feb, 2024</span>
+                </span>
+
+                <ul>
+
+                  <li class="timeline-text-ul">
+                    <p class="timeline-text-ul-item">
+                      As an ABM Intern the main objective of this internship was to pitch the solutions to the 
+                      companies.
+                       
+                    </p>
+                  </li>
+
+                  <li class="timeline-text-ul">
+                    <p class="timeline-text-ul-item">
+                      Generating leads and understanding the problems that the  company is facing specifically
+                       in financial sectors
+                    </p>
+                  </li>
+
+                </ul>
+
+              </li>
+
+              <li class="timeline-item">
+
+                <h4 class="h4 timeline-item-title">All India Council For Technical Education
+                  <span class="right-align">Virtual Mode</span>
+                </h4>
+
+                <span class="program">Android Development Intern </span>
+                  <span class="right-align-gold">May, 2022 - Dec, 2022</span>
+                </span>
+
+                <ul>
+
+                  <li class="timeline-text-ul">
+                    <p class="timeline-text-ul-item">
+                      The main objective of this internship was to gain insights about the Fundamentals of the
+                      android development frameworks and practically implemet with the Google Android Studion and
+                      Play Console of Google.
+                    </p>
+                  </li>
+
+                  <!-- <li class="timeline-text-ul">
+                    <p class="timeline-text-ul-item">
+                      Researched on improving large language models' cognitive ability by providing 
+                      instructions in addition to training data. Achieved comparable performance 
+                      using just 10% of the original dataset. 
+                      <a class="archive-link" href="https://arxiv.org/abs/2306.05539" target="_blank">
+                        arxiv
+                      </a>
+                    </p>
+                  </li> -->
+
+                  <!-- <li class="timeline-text-ul">
+                    <p class="timeline-text-ul-item">
+                      Demonstrated the limitations of large language models (LLM) like GPT3 and 
+                      T5 by creating numerical feasibility data set. Created data set and 
+                      experimentation to show that the GPT3 has accuracy of just 19%. Also, 
+                      demonstrated the knowledge ingestion inability of such models. Paper is 
+                      published at EACL 2023. 
+                      <a class="archive-link" href="https://arxiv.org/abs/2210.07471" target="_blank">
+                        arxiv
+                      </a>
+                    </p>
+                  </li> -->
+
+                </ul>
+
+              </li>
+
+              <li class="timeline-item">
+
+                <h4 class="h4 timeline-item-title">Verzeo 
+                  <span class="right-align">Virtual Mode</span>
+                </h4>
+
+                <span class="program">Cyber Security Ethical Hacking Program Intern 
+                  <span class="right-align-gold">June, 2022 - July, 2022</span>
+                </span>
+
+                <ul>
+
+                  <li class="timeline-text-ul">
+                    <p class="timeline-text-ul-item">
+                      The main objective of this internship was to understand the security layer, network layer,
+                      and how one can use the techniques of ethical hacking to protect the system from 
+                      imposter's attacks.
+                    </p>
+                  </li>
+
+                  <!-- <li class="timeline-text-ul">
+                    <p class="timeline-text-ul-item">
+                      Implemented ETL ingestion data pipeline for Mastercard, featuring 
+                      data extraction in Parquet, distributed data processing using Spark, 
+                      and seamless ingestion of sensitive transaction data. Additionally, 
+                      designed a robust job scheduling and process management system with 
+                      fault tolerance and comprehensive logging, in Unix environment utilizing 
+                      the Hadoop file system.
+                    </p>
+                  </li>
+
+                  <li class="timeline-text-ul">
+                    <p class="timeline-text-ul-item">
+                      Developed and refined an ML-based customer service routing framework 
+                      to automatically route service calls, reducing incorrect routing by 18%. 
+                      This improvement was achieved by extracting key features after reconstructing 
+                      unstructured textual data generated from call transcripts into tabular formats.
+                    </p>
+                  </li>
+
+                </ul>
+
+              </li>
+
+              <li class="timeline-item">
+
+                <h4 class="h4 timeline-item-title">Center for Development of Advanced Computing (CDAC)
+                  <span class="right-align">Pune, MH, India</span>
+                </h4>
+
+                <span class="program">Intern under Multilingual Computing and Computer Vision Division
+                  <span class="right-align-gold">May, 2019 - Jul, 2019</span>
+                </span>
+
+                <ul>
+
+                  <li class="timeline-text-ul">
+                    <p class="timeline-text-ul-item">
+                      Introduced and programmed a NER (Named Entity Recognition) model (Bi-LSTM) to 
+                      route the user to the most relevant customer service professional. The model 
+                      was leveraged to extract relevant features from the conversation. This implementation 
+                      reduced the incorrect customer routing by 13%.
+                    </p>
+                  </li>
+
+                </ul>
+
+              </li> -->
+
+            </ol>
+
+          </section>
+
+          <section class="skill">
+
+            <h3 class="h3 skill-title">My skills</h3>
+
+            <!-- 
+              Languages 
+            -->
+
+            <h5 class="h4 skill-category">Languages</h5>
+
+            <ul class="skill-list">
+
+              <li class="skill-item">
+
+                <div class="skill-icon-box">
+                  <img src="python.png" alt="Python icon" width="40">
+                </div>
+
+                <div class="skill-content-box">
+                  Python
+                </div>
+
+              </li>
+
+              <li class="skill-item">
+
+                <div class="skill-icon-box">
+                  <img src="C_Logo.png" alt="C icon" width="40">
+                </div>
+
+                <div class="skill-content-box">
+                  C
+                </div>
+
+              </li>
+
+              <!-- <li class="skill-item">
+
+                <div class="skill-icon-box">
+                  <img src="./resources/images_resources/.png" alt="Typescript icon" width="40">
+                </div>
+
+                <div class="skill-content-box">
+                  Typescript
+                </div>
+
+              </li> -->
+
+              <li class="skill-item">
+
+                <div class="skill-icon-box">
+                  <img src="c.png" alt="C++ icon" width="40">
+                </div>
+
+                <div class="skill-content-box">
+                C++
+                </div>
+
+              </li>
+
+              <li class="skill-item">
+
+                <div class="skill-icon-box">
+                  <img src="java.png" alt="Java icon" width="40">
+                </div>
+
+                <div class="skill-content-box">
+                  Java
+                </div>
+
+              </li>
+
+              <li class="skill-item">
+
+                <div class="skill-icon-box">
+                  <img src="sql.png" alt="SQL icon" width="40">
+                </div>
+
+                <div class="skill-content-box">
+                  SQL
+                </div>
+
+              </li>
+
+              <li class="skill-item">
+
+                <div class="skill-icon-box">
+                  <img src="js.png" alt="JavaScript icon" width="40">
+                </div>
+
+                <div class="skill-content-box">
+                  JavaScript
+                </div>
+
+              </li>
+
+            </ul>
+
+            <!-- 
+              Frameworks & Libraries 
+            -->
+
+            <h5 class="h4 skill-category">Frameworks & Libraries</h5>
+
+            <ul class="skill-list">
+
+              <li class="skill-item">
+
+                <div class="skill-icon-box">
+                  <img src="aws.svg" alt="AWS icon" width="40">
+                </div>
+
+                <div class="skill-content-box">
+                  AWS Services
+                </div>
+
+              </li>
+
+              <li class="skill-item">
+
+                <div class="skill-icon-box">
+                  <img src="matplot_lib_logo.png" alt="Matplotlib icon" width="40">
+                </div>
+
+                <div class="skill-content-box">
+                  Matplotlib 
+                </div>
+
+              </li>
+
+              <li class="skill-item">
+
+                <div class="skill-icon-box">
+                  <img src="pytorch.png" alt="PyTorch icon" width="40">
+                </div>
+
+                <div class="skill-content-box">
+                  PyTorch
+                </div>
+
+              </li>
+
+              <li class="skill-item">
+
+                <div class="skill-icon-box">
+                  <img src="tensorflow.png" alt="TensorFlow icon" width="40">
+                </div>
+
+                <div class="skill-content-box">
+                  TensorFlow
+                </div>
+
+              </li>
+
+              <li class="skill-item">
+
+                <div class="skill-icon-box">
+                  <img src="llm_lgog.png" alt="Large Language Models icon" width="40">
+                </div>
+
+                <div class="skill-content-box">
+                  Large Language Models
+                </div>
+
+              </li>
+
+              <li class="skill-item">
+
+                <div class="skill-icon-box">
+                  <img src="numpy.png" alt="NumPy icon" width="40">
+                </div>
+
+                <div class="skill-content-box">
+                  NumPy
+                </div>
+
+              </li>
+
+              <li class="skill-item">
+
+                <div class="skill-icon-box">
+                  <img src="pandas.png" alt="Pandas icon" width="40">
+                </div>
+
+                <div class="skill-content-box">
+                  Pandas
+                </div>
+
+              </li>
+
+              <!-- <li class="skill-item"> -->
+
+                <!-- <div class="skill-icon-box">
+                  <img src="./assets/images/flutter.png" alt="Flutter icon" width="40">
+                </div>
+
+                <div class="skill-content-box">
+                  Flutter
+                </div>
+
+              </li> -->
+
+            </ul>
+
+            <!-- 
+              Tools & OS 
+            -->
+
+            <h5 class="h4 skill-category">Tools & OS</h5>
+
+            <ul class="skill-list">
+
+              <li class="skill-item">
+
+                <div class="skill-icon-box">
+                  <img src="vs_code_ud.png" alt="VS Code " width="40">
+                </div>
+
+                <div class="skill-content-box">
+                  VS Code
+                </div>
+
+              </li>
+
+              <li class="skill-item">
+
+                <div class="skill-icon-box">
+                  <img src="github_logo.png" alt="Github" width="40">
+                </div>
+
+                <div class="skill-content-box">
+                  Github
+                </div>
+
+              </li>
+
+              <!-- <li class="skill-item">
+
+                <div class="skill-icon-box">
+                  <img src="./assets/images/apache_hadoop.png" alt="Apache Hadoop" width="40">
+                </div>
+
+                <div class="skill-content-box">
+                  Apache Hadoop
+                </div>
+
+              </li> -->
+<!-- 
+              <li class="skill-item">
+
+                <div class="skill-icon-box">
+                  <img src="./assets/images/apache_spark.png" alt="Apache Spark icon" width="40">
+                </div>
+
+                <div class="skill-content-box">
+                  Apache Spark
+                </div>
+
+              </li> -->
+
+              <li class="skill-item">
+
+                <div class="skill-icon-box">
+                  <img src="mysql.png" alt="MySQL icon" width="40">
+                </div>
+
+                <div class="skill-content-box">
+                  MySQL
+                </div>
+
+              </li>
+
+              <!-- <li class="skill-item">
+
+                <div class="skill-icon-box">
+                  <img src="./assets/images/tableau.svg" alt="Tableau icon" width="40">
+                </div>
+
+                <div class="skill-content-box">
+                  Tableau
+                </div>
+
+              </li> -->
+
+              <li class="skill-item">
+
+                <div class="skill-icon-box">
+                  <img src="html.png" alt="HTML icon" width="40">
+                </div>
+
+                <div class="skill-content-box">
+                  HTML
+                </div>
+
+              </li>
+
+              <li class="skill-item">
+
+                <div class="skill-icon-box">
+                  <img src="css-3.png" alt="CSS icon" width="40">
+                </div>
+
+                <div class="skill-content-box">
+                  CSS
+                </div>
+
+              </li>
+
+              <!-- <li class="skill-item">
+
+                <div class="skill-icon-box">
+                  <img src="./assets/images/unity.png" alt="Unity icon" width="40">
+                </div>
+
+                <div class="skill-content-box">
+                  Unity
+                </div>
+
+              </li> -->
+
+              <li class="skill-item">
+
+                <div class="skill-icon-box">
+                  <img src="linux.png" alt="Linux icon" width="40">
+                </div>
+
+                <div class="skill-content-box">
+                  Linux
+                </div>
+
+              </li>
+
+            </ul>
+
+          </section>
+
+          <!-- 
+            Certifications 
+          -->
+
+          <section class="certification">
+            
+            <h3 class="h3 certification-title">Certifications</h3>
+
+              <ul class="certification-list">
+
+                <li class="certification-item">
+                  <a href="https://drive.google.com/file/d/1snvksvBP6Lg8HvwPKdMRe4NPH2e4u0mK/view?usp=sharing" target="_blank">
+                    <div class="certification-icon-box">
+                      <img src="elsevier_ud.png" alt="elsevier_logo" width="70">
+                    </div>
+
+                    <div class="certification-content-box">
+                      Elsevier Certification for Machine Learning Analysis andysis andysis and ysis andysis andysis
+                    </div>
+                  </a>
+                </li>
+<!-- 
+                <li class="certification-item">
+                  <a href="https://coursera.org/share/008300fb2d29fa4d30011b32b4881192" target="_blank">
+                    <div class="certification-icon-box">
+                      <img src="./assets/images/umich.png" alt="University of Michigan icon" width="70">
+                    </div>
+
+                    <div class="certification-content-box">
+                      Applied Machine Learning
+                    </div>
+                  </a>
+                </li> -->
+
+                <!-- <li class="certification-item">
+                  <a href="https://certificate.algoexpert.io/AE-c3da7de934" target="_blank">
+                    <div class="certification-icon-box">
+                      <img src="./assets/images/algoexpert.png" alt="Algoexpert icon" width="70">
+                    </div>
+
+                    <div class="certification-content-box">
+                      Algoexpert
+                    </div>
+                  </a>
+                </li> -->
+
+              </ul>
+
+          </section>
+
+        </article>
+
+
+        <!--
+          - #PORTFOLIO
+        -->
+
+        <article class="projects" data-page="projects">
+
+          <header>
+            <h2 class="h2 article-title">Projects</h2>
+          </header>
+
+          <section class="project-posts">
+
+            <ul class="project-posts-list">
+
+              <li class="project-post-item">
+                <a href="https://github.com/aaryansinha15/SENTIMENTAL-ANALYSIS-ON-RUSSIA-UKRAINE-WAR" target="_blank">
+
+                  <figure class="project-banner-box">
+                    <!-- img ref: https://i.ytimg.com/vi/01pUL0ex8H8/maxresdefault.jpg -->
+                    <img src="rus_ukr_main.png" alt="Russia Ukraine War" loading="lazy">
+                  </figure>
+
+                  <div class="project-content">
+
+                    <div class="project-meta">
+                      <p class="project-category">ML - Models</p>
+
+                      <span class="dot"></span>
+
+                      <p class="project-category">NLP</p>
+                      
+                      <span class="dot"></span>
+
+                      <p class="project-category">Sentimental Analysis</p>
+                      
+                    </div>
+
+                    <h3 class="h4 project-item-title">Sentimental Analysis On Russia Ukraine War</h3>
+                      <p class="project-text">
+                        The major goal is to acquire insight into Twitter user's shifting thoughts and opinions 
+                        on various parts of the conflict over time. The study’s findings have important implications
+                         for politicians, journalists, and social media users who want to follow and understand 
+                         how online communities’ attitudes on global issues change.
+                      </p>
+                    
+                      <p class="project-text">
+                        Used Logistic regression, K-nearest neighbours (KNN), Decision tree models with modified architecture for improved 
+                        accuracy and reduced GPU memory usage.
+                      </p>
+                    
+                      <p class="project-text">
+                        Trained Logistic regression, K-nearest neighbours (KNN), Decision tree models which is purely based 
+                        on the five parameters that is  Accuracy, Precision, F1-score, Support, and Confusion Matrix. 
+                      </p>
+
+                      <div class="project-tech">
+                        <span class="tech">Python</span>
+                      </div>
+                      <div class="project-tech">
+                        <span class="tech">Natural Language Processing</span>
+                      </div>
+                      <div class="project-tech">
+                        <span class="tech">Kaggle</span>
+                      </div>
+                      <div class="project-tech">
+                        <span class="tech">Numpy</span>
+                      </div>
+                      <div class="project-tech">
+                        <span class="tech">Pandas</span>
+                      </div>
+
+                  </div>
+
+                </a>
+              </li>
+
+              <li class="project-post-item">
+                <a href="https://github.com/aaryansinha15/Website_for_sentimental_analysis" target="_blank">
+
+                  <figure class="project-banner-box">
+                    <img src="rus_ukr_website.png" alt="Website_for_sentimental_analysis" loading="lazy">
+                  </figure>
+
+                  <div class="project-content">
+
+                    <div class="project-meta">
+                      <p class="project-category">Website For Sentimental Analysis</p>
+
+                      <span class="dot"></span>
+
+                      <p class="project-category"> WebPage </p>
+                      
+                      <span class="dot"></span>
+
+                      <p class="project-category">Summarization</p>
+                      
+                    </div>
+
+                    <h3 class="h4 project-item-title"> A Website Consisting All The Details Of The Sentimental Analysis Of Russia Ukraine Conflict. </h3>
+                      <p class="project-text">
+                        A digital repository that servers as a central location for storing, organizing and sharing various types of academic and technical documents, 
+                        including reports, research reports paper, source code and potentially other relevant materials.
+                      <!-- </p>
+                    
+                      <p class="project-text">
+                        Experimented with diverse embeddings and dimension reduction techniques; 
+                        Bert with UMAP and Tf-IDF outperforms over others.
+                      </p>
+                    
+                      <p class="project-text">
+                        The project offers insights with visual aids (word clouds, treemap charts, etc).
+                      </p> -->
+
+                      <div class="project-tech">
+                        <span class="tech">HTML</span>
+                      </div>
+                      <div class="project-tech">
+                        <span class="tech">CSS</span>
+                      </div>
+                      <!-- <div class="project-tech">
+                        <span class="tech">Huggingface</span>
+                      </div>
+                      <div class="project-tech">
+                        <span class="tech">Matplotlib</span>
+                      </div> -->
+
+                  </div>
+
+                </a>
+              </li>
+
+              <li class="project-post-item">
+                <a href="https://github.com/aaryansinha15/CSV-Files-Querying-Using-LLMs" target="_blank">
+
+                  <figure class="project-banner-box">
+                    <img src="query_csv_pandasAI.png" alt="CSV_Files_Using_LLMs" loading="lazy">
+                  </figure>
+
+                  <div class="project-content">
+
+                    <div class="project-meta">
+                      <p class="project-category">Python</p>
+
+                      <span class="dot"></span>
+
+                      <p class="project-category">PandasAi</p>
+                      
+                      <span class="dot"></span>
+
+                      <p class="project-category">Large Language Models LLMs</p>
+
+                      <span class="dot"></span>
+
+                      <p class="project-category">OpenAI</p>
+                      
+                    </div>
+
+                    <h3 class="h4 project-item-title">CSV-Files-Querying-Using-LLMs</h3>
+                      <p class="project-text">
+                        Developed an application that involves Generative Artificial Intelligence into the Pandas making the dataframes into a 
+                        conversational framework entirely from scratch using the PandasAi functionalities. 
+                      </p>
+                    
+                      <p class="project-text">
+                        The main objective of this application is to perform generative conversational between the user and the framework
+                        with the use of CSV files as a medium. 
+                      </p>
+                    
+                      <p class="project-text">
+                        This application produces all the functionalities that pandas library of the python such as Mean, Mediusm
+                        and Mode, Maximum and Minimum elements in the CSV file along with thet it also produces the graph models 
+                        for the queries related to the CSV files. Although this can be upgraded using the methods defined in the 
+                        PandasAI library for the LLMs. The Work is in Progress. 
+                      </p>
+
+                      <p class="project-text">
+                        Utilized a memory-efficient approach by employing a B+ tree for the storage of tables and records in-memory.
+                      </p>
+
+                      <div class="project-tech">
+                        <span class="tech">C</span>
+                      </div>
+                      <div class="project-tech">
+                        <span class="tech">SQL</span>
+                      </div>
+                      <div class="project-tech">
+                        <span class="tech">B+ Tree</span>
+                      </div>
+
+                  </div>
+
+                </a>
+              </li>
+
+              <li class="project-post-item">
+                <a href="https://github.com/aaryansinha15/Age-Gender-And-Ethnicity-Prediction-Using-CNN-Model" target="_blank">
+
+                  <figure class="project-banner-box">
+                    <img src="age_gender_ethnicity_cnn.png" alt="Age, Gender and Ethnicity Prediction" loading="lazy">
+                  </figure>
+
+                  <div class="project-content">
+
+                    <div class="project-meta">
+                      <p class="project-category">CNN</p>
+
+                      <span class="dot"></span>
+
+                      <p class="project-category">Prediction</p>
+
+                      <span class="dot"></span>
+
+                      <p class="project-category">Image Based Analysis</p>
+                    </div>
+
+                    <h3 class="h4 project-item-title">Age , Gender and Ethnicity Prediction Using CNN Model</h3>
+                      <p class="project-text">
+                        Developed A Sophisticated Model That Independently identifies the important demographic variables from a 
+                        facial photos is the main goal of Age, Gender and Ethnicity Prediction via Convolution Neural Networks
+                        (CNN).
+                      </p>
+                    
+                      <p class="project-text">
+                        The project includes application form validation and recommendations to ensure conformity to defined 
+                        formats, hence streamlining this procedure.
+                      </p>
+                    
+                      <p class="project-text">
+                        Specifically, the lack of auto-detection for 'age, gender, and ethnicity' leads to the incorporation of a 
+                        Convolutional Neural Network (CNN) to forecast these characteristics from user images, 
+                        improving the process of gathering data for institutions.
+                      </p>
+
+                      <div class="project-tech">
+                        <span class="tech">Python</span>
+                      </div>
+                      <div class="project-tech">
+                        <span class="tech">TensorFlow</span>
+                      </div>
+                      <div class="project-tech">
+                        <span class="tech">Numpy</span>
+                      </div>
+                      <div class="project-tech">
+                        <span class="tech">Pandas</span>
+                      </div>
+                      <div class="project-tech">
+                        <span class="tech">Matplotlib</span>
+                      </div>
+
+                  </div>
+
+                </a>
+              </li>
+<!-- 
+              <li class="project-post-item">
+                <a href="#">
+
+                  <figure class="project-banner-box">
+                    img ref: https://www.kaggle.com/datasets/microize/newyork-yellow-taxi-trip-data-2020-2019
+                    <img src="./assets/images/yellow-taxi.jpg" alt="NYC Yellow Cab Data Processing and Analytics" loading="lazy">
+                  </figure>
+
+                  <div class="project-content">
+
+                    <div class="project-meta">
+                      <p class="project-category">Pagerank</p>
+
+                      <span class="dot"></span>
+
+                      <p class="project-category">Graph DB</p>
+
+                      <span class="dot"></span>
+
+                      <p class="project-category">Kubernetes</p>
+                    </div>
+
+                    <h3 class="h4 project-item-title"> NYC Yellow Cab Data Processing and Analytics</h3>
+                      <p class="project-text">
+                        Developed a Docker container for the PageRank graph algorithm using the 
+                        NYC Yellow Cab Trip dataset and established a scalable data processing pipeline.
+                      </p>
+                    
+                      <p class="project-text">
+                        Orchestrated the pipeline with Kubernetes and integrated Kafka with Neo4j 
+                        to enable efficient real-time data processing and analytics.
+                      </p>
+
+                      <p class="project-text">
+                        Implemented the project as part of CSE511: Data Processing at Scale course at ASU.
+                      </p>
+
+                      <div class="project-tech">
+                        <span class="tech">Python</span>
+                      </div>
+                      <div class="project-tech">
+                        <span class="tech">Scala</span>
+                      </div>
+                      <div class="project-tech">
+                        <span class="tech">Neo4j</span>
+                      </div>
+                      <div class="project-tech">
+                        <span class="tech">Docker</span>
+                      </div>
+                      <div class="project-tech">
+                        <span class="tech">Kubernetes</span>
+                      </div>
+                      <div class="project-tech">
+                        <span class="tech">Kafka</span>
+                      </div>
+
+                  </div>
+
+                </a>
+              </li>
+ -->
+              <!-- <li class="project-post-item">
+                <a href="#">
+
+                  <figure class="project-banner-box">
+                     img ref: https://developer.android.com/codelabs/digit-classifier-tflite#0                     <img src="./assets/images/digit_classifier.png" alt="Handwritten Digits Classification" loading="lazy">
+                  </figure>
+
+                  <div class="project-content">
+
+                    <div class="project-meta">
+                      <p class="project-category">CNN</p>
+
+                      <span class="dot"></span>
+
+                      <p class="project-category">Flask</p>
+
+                      <span class="dot"></span>
+
+                      <p class="project-category">Android App</p>
+                    </div>
+
+                    <h3 class="h4 project-item-title"> Handwritten Digits Classification</h3>
+                      <p class="project-text">
+                        Developed a mobile app (Android) enabling users to capture photos and send both to a 
+                        local Flask-based server for storage.
+                      </p>
+                    
+                      <p class="project-text">
+                        Divided images into four parts, transmitting them to different client mobiles, 
+                        each with its trained deep learning model to classify parts and store images based on predicted digits.
+                      </p>
+                    
+                      <p class="project-text">
+                        Implemented the project as part of CSE535: Mobile Computing course at ASU.
+                      </p>
+
+                      <div class="project-tech">
+                        <span class="tech">Python</span>
+                      </div>
+                      <div class="project-tech">
+                        <span class="tech">Flask</span>
+                      </div>
+                      <div class="project-tech">
+                        <span class="tech">Java</span>
+                      </div>
+                      <div class="project-tech">
+                        <span class="tech">TensorFlow</span>
+                      </div>
+
+                  </div>
+
+                </a>
+              </li> -->
+
+             <!-- <li class="project-post-item">
+                <a href="#">
+
+                  <figure class="project-banner-box">
+                    <img src="./assets/images/sageconv_gnn.png" alt="Recommendation System" loading="lazy">
+                  </figure>
+
+                  <div class="project-content">
+
+                    <div class="project-meta">
+
+                      <p class="project-category">GNN</p>
+
+                      <span class="dot"></span>
+
+                      <p class="project-category">Inception</p>
+
+                      <span class="dot"></span>
+
+                      <p class="project-category">Recommendation System</p>
+                    </div>
+
+                    <h3 class="h4 project-item-title">Session based Recommendation System</h3>
+                      <p class="project-text">
+                        Developed session based recommender system that predicts the next probable item to be 
+                        clicked by user in a given session. Each session activity is a graph, and each item is nodes.
+                      </p>
+                    
+                      <p class="project-text">
+                        Proposed and implemented SAGEconv graph neural network (GNN) to understand customer behaviour in a 
+                        session providing personalized recommendations. Coded novel inception based graph neural network 
+                        and achieved 76% test accuracy.
+                      </p>
+                    
+                      <p class="project-text">
+                        Implemented the project as part of B.Tech Portfolio Project.
+                      </p>
+
+                      <div class="project-tech">
+                        <span class="tech">Python</span>
+                      </div>
+                      <div class="project-tech">
+                        <span class="tech">PyTorch Geometric</span>
+                      </div>
+                      <div class="project-tech">
+                        <span class="tech">sklearn</span>
+                      </div>
+                      <div class="project-tech">
+                        <span class="tech">NumPy</span>
+                      </div>
+
+                  </div>
+
+                </a>
+              </li> -->
+
+           <!--   <li class="project-post-item">
+                <a href="https://github.com/srsawant34/NER-tagging-using-BiLSTM" target="_blank">
+
+                  <figure class="project-banner-box">
+                    img ref: https://zhoubeiqi.medium.com/named-entity-recognition-ner-using-keras-lstm-spacy-da3ea63d24c5 
+                    <img src="./assets/images/ner-bilstm.png" alt="Bi-LSTM NER Tagging" loading="lazy">
+                  </figure>
+
+                  <div class="project-content">
+
+                    <div class="project-meta">
+                      <p class="project-category">NER</p>
+
+                      <span class="dot"></span>
+
+                      <p class="project-category">Service Routing</p>
+
+                      <span class="dot"></span>
+
+                      <p class="project-category">BiLSTM</p>
+                    </div>
+
+                    <h3 class="h4 project-item-title">Bi-LSTM NER Tagging</h3>
+                      <p class="project-text">
+                        Introduced and programmed a NER (Named Entity Recognition) model to route the user to the most 
+                        relevant customer service professional. 
+                      </p>
+                    
+                      <p class="project-text">
+                        BiLSTM language model was trained and tested. The model was leveraged to extract relevant features 
+                        from the conversation. This implementation reduced the incorrect customer routing by 13%.
+                      </p>
+                    
+                      <p class="project-text">
+                        Implemented the project as part of internship at 
+                        Center for Development of Advanced Computing (CDAC).
+                      </p>
+
+                      <div class="project-tech">
+                        <span class="tech">Python</span>
+                      </div>
+                      <div class="project-tech">
+                        <span class="tech">Keras</span>
+                      </div>
+                      <div class="project-tech">
+                        <span class="tech">NumPy</span>
+                      </div>
+                      <div class="project-tech">
+                        <span class="tech">spaCy</span>
+                      </div>
+                      <div class="project-tech">
+                        <span class="tech">NLTK</span>
+                      </div>
+                      <div class="project-tech">
+                        <span class="tech">sklearn</span>
+                      </div>
+
+                  </div>
+
+                </a>
+              </li>
+            -->
+            </ul>
+
+          </section>
+
+        </article>
+
+
+        <!--
+          - #RESEARCH
+        -->
+
+        <article class="research" data-page="research">
+          <header>
+            <h2 class="h2 article-title">Research</h2>
+          </header>
+
+          <section class="research-posts">
+
+            <ul class="research-posts-list">
+
+              <li class="research-post-item">
+                <a href="https://drive.google.com/file/d/16hXDeDSh0tWkWT6NKJSRAkqxEfdrLJX7/view" target="_blank">
+                  <figure class="research-banner-box">
+                    <img src="research_ss.png" alt="Research Paper ScreenShot" loading="lazy">
+                  </figure>
+                  <div class="research-content">
+                    <div class="research-meta">
+                      <p class="research-category">Accepted At ICMLDE 2024</p>
+                      <span class="dot"></span>
+                      <time datetime="2023-02-03">Nov 10, 2023</time>
+                    </div>
+                    <h5 class="h5 research-item-title">Exploring Sentiments in the Russia-Ukraine Conflict: A
+                      Comparative Analysis of KNN, Decision Tree And Logistic Regression Machine Learning Classifiers.
+
+                    </h5>
+                    <p class="research-text">
+                      The main objective of this analysis was to get insights of the groups of
+                       people like politicians, shareholders, journalists and common people. 
+                       The insights of the analysis was to get the thoughts of the people by 
+                       gaining information from twitter and to gain deeper knowledge of how
+                       social media works in affecting public debate and how it might be used 
+                       to gain insights into public opinion on crucial global issues. The paper
+                       is accepted by the esteemed journal Elsevier Procedia
+                       under the International Conference On Machine Learning and Data 
+                       Engineering.
+                     
+                     
+                      Demonstrated the limitations of large language models (LLM) like GPT3 
+                      and T5 by creating numerical feasibility data set. Created data set 
+                      and experimentation to show that the GPT3 has accuracy of just 19%. 
+                      Also, demonstrated the knowledge ingestion inability of such models. 
+                      Paper is published at EACL 2023.
+                    </p>
+                  </div>
+                </a>
+              </li>
+<!--
+              <li class="research-post-item">
+                <a href="https://arxiv.org/abs/2306.05539" target="_blank">
+                  <figure class="research-banner-box">
+                    <img src="./assets/images/instruction_learning.png" alt="Instruction Learning" loading="lazy">
+                  </figure>
+                  <div class="research-content">
+                    <div class="research-meta">
+                      <p class="research-category">Instruction Learning</p>
+                      <span class="dot"></span>
+                      <time datetime="2023-05-17">May 17, 2023</time>
+                    </div>
+                    <h5 class="h5 research-item-title">Instruction Tuned Models are Quick Learners</h5>
+                    <p class="research-text">
+                      This research highlights instruction tuning in language models, showcasing 
+                      their impressive sample efficiency. In single task learning, they excel 
+                      with only 25% of the data, while in multi-task learning, they achieve 
+                      state-of-the-art results with just 6% of the data. This approach improves 
+                      sample efficiency, and pre-finetuning with instructions consistently 
+                      enhances performance by around 4%. However, challenges arise in tasks 
+                      like question rewriting and title generation with instruction tuning.
+                    </p>
+                  </div>
+                </a>
+              </li>
+
+              <li class="research-post-item">
+                <a href="https://www.atipriya.com/files/papers/varbert_oakland24.pdf" target="_blank">
+                  <figure class="research-banner-box">
+                    Ref: https://arxiv.org/pdf/2103.12801.pdf 
+                    <img src="./assets/images/variable_recovery.jpg" alt="variable_recovery" loading="lazy">
+                  </figure>
+                  <div class="research-content">
+                    <div class="research-meta">
+                      <p class="research-category">IEEE S&P 2024 (Oakland)</p>
+                      <span class="dot"></span>
+                      <time datetime="2023-05-10">May 10, 2023</time>
+                    </div>
+                    <h5 class="h5 research-item-title">"Len or index or count, anything but v1": Predicting
+                      Variable Names in Decompilation Output with Transfer
+                      Learning</h5>
+                    <p class="research-text">
+                      Created a Masked Language Model (MLM, BERT) for recovery of variable from decompiled source code. 
+                      Comparing pre-training performance of original code and decompiled code and effect of selective 
+                      variable masking using a Constrained Masked Language Model (CMLM) for performance improvements.
+                    </p>
+                  </div>
+                </a>
+              </li>
+
+              <li class="research-post-item">
+                <a href="https://arxiv.org/abs/2302.08624" target="_blank">
+                  <figure class="research-banner-box">
+                    <img src="./assets/images/instructabsa.png" alt="InstructABSA" loading="lazy">
+                  </figure>
+                  <div class="research-content">
+                    <div class="research-meta">
+                      <p class="research-category">Under review (NAACL)</p>
+                      <span class="dot"></span>
+                      <time datetime="2023-11-13">Nov 13, 2023</time>
+                    </div>
+                    <h5 class="h5 research-item-title">InstructABSA: Instruction Learning for Aspect Based Sentiment Analysis</h5>
+                    <p class="research-text">
+                      InstructABSA improves Aspect-Based Sentiment Analysis (ABSA) by including diverse examples during 
+                      training, surpassing previous state-of-the-art (SOTA) methods in Term Extraction, Sentiment 
+                      Classification, and Sentiment Pair Extraction on Sem Eval datasets, maintaining a strong 
+                      generalization with just 50% of the training data.
+                    </p>
+                  </div>
+                </a>
+              </li>
+
+              <li class="research-post-item">
+                <a href="https://arxiv.org/abs/2310.17876" target="_blank">
+                  <figure class="research-banner-box">
+                    <img src="./assets/images/targen.png" alt="TarGEN" loading="lazy">
+                  </figure>
+                  <div class="research-content">
+                    <div class="research-meta">
+                      <p class="research-category">Under review (NAACL)</p>
+                      <span class="dot"></span>
+                      <time datetime="2023-10-30">Oct 30, 2023</time>
+                    </div>
+                    <h5 class="h5 research-item-title">TarGEN: Targeted Data Generation with Large Language Models</h5>
+                    <p class="research-text">
+                      TarGEN, a seedless strategy, generates high-quality synthetic datasets using LLMs, outperforming 
+                      originals by 1-2% in SuperGLUE tasks. With instruction tuning, it achieves 84.54% on synthetic data 
+                      versus 81.49% on originals, maintaining diversity. T5-3B pre-finetuned on TarGEN 
+                      tops the OpenLLM leaderboard by 4.14%, providing an efficient benchmark solution.
+                    </p>
+                  </div>
+                </a>
+              </li>
+            -->
+            </ul>
+          </section>
+        </article>
+        
+        <!--
+          - #CONTACT
+        -->
+
+        <article class="contact" data-page="contact">
+
+          <header>
+            <h2 class="h2 article-title">Contact</h2>
+          </header>
+
+          <section class="mapbox" data-mapbox>
+            <figure>  
+                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3740.715536004885!2d85.8170821!3d20.353367!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a19093d69c9edc1%3A0x4f11974507a587f3!2sKIIT%20Campus%206%20(Kosi)!5e0!3m2!1sen!2sin!4v1709894872702!5m2!1sen!2sin" 
+                width="400" height="300" 
+                style="border:0;" allowfullscreen="" 
+                loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+                referrerpolicy="no-referrer-when-downgrade">
+              </iframe>
+                
+              
+            </figure>
+          </section>
+
+          <section class="contact-form">
+
+            <h3 class="h3 form-title">Contact Form</h3>
+
+            <form 
+              action="https://forms.gle/Ly66snnqurTcNHmT7" 
+              class="form" target="_blank"
+              data-form>
+
+              <div class="input-wrapper">
+                <input type="text" name="entry.1325375650" class="form-input" placeholder="Full name" required data-form-input>
+
+                <input type="email" name="entry.45159176" class="form-input" placeholder="Email address" required data-form-input>
+              </div>
+
+              <textarea name="entry.2104378170" class="form-input" placeholder="Your Message" required data-form-input></textarea>
+
+              <button class="form-btn" type="submit" disabled data-form-btn>
+                <ion-icon name="paper-plane"></ion-icon>
+                <span>Send Message</span>
+              </button>
+
+            </form>
+
+          </section>
+
+        </article>
+
+      </div>
+
+    </main>
+
+  </div>
+
+  <!-- scripts -->
+  <script src="particles.js"></script>
+  <script src="app.js"></script>
+
+  <!--
+    - custom js link
+  -->
+  <script src="script.js"></script>
+
+  <!--
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+</html>
